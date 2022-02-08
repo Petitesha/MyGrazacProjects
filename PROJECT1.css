@@ -1,0 +1,574 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import url('//db.onlinewebfonts.com/c/67415ab41a7350f81536b69763e6d031?family=Recoleta-Regular');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400&display=swap');
+@import url('//db.onlinewebfonts.com/c/c713fd0df31cf4e5f8e4f09e92698c6d?family=Rage+Italic');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root{
+--font-family:'Roboto', sans-serif;
+}
+
+.container{
+    background-color: white;
+    width: 100%;
+}
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: #f1f6ff;
+}
+.innercontainer{
+display: flex;
+margin: auto;
+justify-content: space-between;
+align-items: center;
+width: 90%;
+}
+.mocking{
+    width: 176px;
+    height: 38px;
+}
+.mocking>img{
+    width: 100%;
+    height: 100%;
+}
+.nav{
+   width: 70%;
+}
+.nav .ul{
+ display: flex;
+ justify-content: space-between;
+ padding: 30px;
+ list-style-type: none;
+ font-family: var(--font-family);
+}
+.li a {
+    text-decoration: none;
+ }
+ .li:first-child{
+    border-bottom: 5px solid red;
+ }
+.li:not(:last-child) a{
+    color: black
+}
+.book a{
+    color: red
+}
+.li a:hover{
+    border-bottom: 5px solid red;
+    font-weight: bolder;
+}
+.li:last-child a:hover{
+    border-bottom: 5px solid black;
+}
+.svg{
+    display: none;
+}
+.music{
+    margin-top: 20px;
+    width: 100%;
+    height: 600px;
+    background-color: black;
+}
+.innermusic{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.musictext{
+    padding-left: 100px;
+    width: 50%;
+}
+.musictext h1{
+    font: 'Recoleta';
+    color: white;
+    font-weight: 700px;
+    font-size: 60px;
+    padding-bottom: 30px;
+}
+.musictext h1 span{
+    color: red;
+   margin-buttom: 30px;
+  
+}
+.musictext p{
+   font-family:  var(--font-family);
+    color: white;
+    font-weight: 300px;
+    font-size: 40px;
+    font-style: italic;
+}
+.musicbutton{
+    background-color: white;
+    color: red;
+    padding: 10px 30px;
+    border-radius:15px;
+    border: none;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.musicbutton:hover{
+    background-color: transparent;
+    border: 1px solid grey;
+    color: white;
+}
+.headset{
+    width: 50%;
+    height: 500px;
+}
+.headset>img{
+    width: 100%;
+    height: 100%;
+}
+.bigdiv{
+    width: 90%;
+    margin: auto;
+}
+.section1{
+    margin-top: 100px;
+}
+.pictures{
+    margin: auto;
+    width: 100%;
+    display: flex;
+    text-align: left;
+    justify-content: right;
+}
+.picturestext{
+    width: 50%;
+    font-family:  var(--font-family);
+    padding-top: 50px;
+    margin-right: 100px;
+}
+.picturestext h3{
+    font-weight: 400;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.picturestext p{
+    font-weight: 300;
+    font-size: 18px;
+}
+.picturebutton{
+    border-radius: none;
+    background-color: #222222;
+    border: none;
+    padding:10px 20px;
+    color: white;
+}
+.picturebutton:hover{
+    background-color: transparent;
+    color: black;
+    border: 1px solid grey;
+}
+.picturesimg{
+  width: 50%;
+  display: flex; 
+  align-items: center;
+}
+.img1{
+    width: 50%;
+    height: 300px;
+}
+.img1>img{
+    width: 100%;
+    height: 100%;
+}
+.img1:not(:last-child) {
+    margin-right: 20px;
+}
+.section2{
+    margin-top: 100px;
+}
+.micpicture{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    text-align: left;
+}
+.micimg{
+    width: 50%;
+    height: 333px;
+    margin-right: 100px;
+  }
+  .micimg>img{
+    width: 100%;
+    height: 100%;
+}
+.mictext{
+    width: 50%;
+    font-family:  var(--font-family);
+    margin-top: 30px;
+}
+.mictext h3{
+  font-size: 30px; 
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.mictext p{
+    font-size: 18px; 
+      font-weight: 300;
+      margin-bottom: 20px;
+}
+.smartest{
+    width: 100%;
+    height: 100px;
+    background-color: #222222;
+    color: white;
+    font-weight: 500;
+    font-size: 24px;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:  var(--font-family);
+}
+.imagesA{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    margin-top: 30px;
+}
+.imageA1{
+    width: 200px;
+    height: 200px;
+}
+.imageA1>img{
+    width: 100%;
+    height: 100%;
+}
+.imagesB{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px auto;
+}
+.message{
+    color: black;
+    font-family:  var(--font-family);
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 40px;
+    margin-bottom: 10px;
+}
+.message span{
+    font-weight: bold;
+    color: red;
+}
+.footer{
+    width: 100%;
+    height: 200.5px;
+    background-color: #222222;
+}
+.innerfooter{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    margin: 0px auto 30px auto;
+}
+.firstfooter{
+    margin:30px 0;
+    flex-basis: 50%;
+}
+.footerimg{
+    font-family:  'rage italic';
+    color: white;
+    font-weight: 400;
+    font-size: 30px;
+}
+.footerimgtext{
+    color: white;
+    font-family:  var(--font-family);
+    font-weight: 300;
+    font-size: 14px;
+    padding-top: 10px;
+}
+.secondfooter{
+color: white; 
+margin-left: 80px;
+font-family:  var(--font-family);
+}
+.secondfooter p{
+    padding-bottom: 5px;
+}
+.thirdfooter{
+    color: white;
+    margin-left: 120px;
+    font-family:  var(--font-family);
+}
+.footerA{
+    padding-bottom: 5px;
+}
+
+@media screen and ( max-width: 1000px){
+    .music{
+        width: 100%;
+        flex-direction: column;
+        align-items: left;
+        height: 400px;
+    }
+    .musictext{
+        padding-left: 0px;
+        width: 50%;
+       text-align: left;
+       margin-top: 30px;
+    }
+    .musictext h1{
+        font-weight: 400px;
+        font-size: 45px;
+    }
+    .musictext p{
+         font-weight: 200px;
+         font-size: 20px;
+     }
+     .musicbutton{
+         padding: 5px 20px;
+         font-size: 20px;
+         margin-top: 20px;
+         margin-bottom: 20px;
+     }
+     .headset{
+        width: 200px;
+        height: 200px;
+        margin-top: 20px;
+    }
+    .headset>img{
+        width: 100%;
+        height: 100%;
+        }
+    .section1{
+       width: 100%;
+       margin: 0px;
+    }
+    .pictures{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .picturestext{
+        width: 50%;
+        padding-top: 50px;
+        margin-right: 0px;
+        text-align: center;
+    }
+    .picturestext h3{
+        font-size: 20px; 
+        /* width: 100%; */
+          height: 50px;
+          font-weight: 300;
+          margin-bottom: 30px;
+    }
+    .picturestext p{
+        font-size: 16px; 
+          /* width: 100%; */
+            font-weight: 200;
+            margin-bottom: 20px;
+    }
+    .picturesimg{
+        width: 50%;
+        margin-top: 30px;
+        align-items: center;
+      }
+      .img1{
+        width: 200px;
+        height: 300px;
+    }
+    .img1>img{
+        width: 100%;
+        height: 100%;
+    }
+    .section2{
+        width: 100%;
+        margin-top: 50px;
+    }
+    .micpicture{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .micimg{
+    width: 50%;
+    height: 333px;
+    align-items: center;
+    margin: auto;
+  }
+  .micimg>img{
+    width: 100%;
+    height: 100%;
+}
+    .mictext{
+        width: 50%;
+        padding-top: 30px;
+        text-align: center;
+    }
+    .mictext h3{
+        font-size: 20px; 
+        font-weight: 300;
+        margin-bottom: 20px;
+      }
+      .mictext p{
+            font-size: 16px; 
+            font-weight: 200;
+            margin-bottom: 20px;
+      }
+}
+@media screen and ( max-width: 800px){
+    .header{
+    padding-top: 30px;
+}
+    nav{
+        display: none;
+    }
+    .svg{
+        display: block;
+    }
+    .picturestext p{
+          margin-top: 50px;
+    }
+    .img1{
+        height: 200px;
+    }
+    .micimg{
+        height: 200px;
+      }
+    .smartest{
+        font-weight: 300;
+        font-size: 18px;
+    }
+    .imageA1{
+        width: 100px;
+        height: 100px;
+    }
+    .imageA1>img{
+        width: 100%;
+        height: 100%;
+    }
+    .message{
+        font-size: 18px;
+        font-weight: 300;
+        padding-top: 0px;
+        margin-bottom: 10px;
+    }
+    .innerfooter{
+        width: 70%;
+        padding-top: 30px;
+    }
+    .firstfooter{
+        margin:0px;
+    }
+    .footerimg{
+        font-weight: 300;
+        font-size: 20px;
+    }
+    .footerimgtext{
+        font-weight: 200;
+        font-size: 10px;
+        padding-top: 0px;
+    }
+    .secondfooter p{
+        padding-bottom: 0px;
+        font-size: 10px;
+    }
+    .thirdfooter p{
+        font-size: 10px;
+    }
+    .footerA{
+        padding-bottom: 3px;
+        font-size: 10px;
+    }
+}
+@media screen and ( max-width: 510px){
+    .innermusic{
+        flex-direction: column;
+    }
+    .musictext{
+        text-align: center;
+    }
+    .musictext h1{
+        font-weight: 400px;
+        font-size: 24px;
+        padding-bottom: 10px;
+        margin-top: 10px;
+    }
+    .musictext p{
+         font-weight: 200px;
+         font-size: 18px;
+     }
+     .musicbutton{
+        padding: 5px 15px;
+        font-weight: bold;
+        font-size: 12px;
+    }
+    .headset{
+       margin-top: 0px;
+       width: 50%;
+       height: 100px;
+    }
+    .headset>img{
+        width: 100%;
+        height: 100%;
+    }
+    .picturestext h3{
+        font-size: 16px; 
+          font-weight: 200;
+    }
+    .picturestext p{
+        font-size: 12px; 
+            font-weight: 200;
+    }
+    .img1{
+        height: 100px;
+    }
+    .micimg{
+        height: 100px;
+      }
+    .mictext h3{
+        font-size: 16px; 
+          font-weight: 200;
+      }
+      .mictext p{
+          font-size: 12px; 
+            font-weight: 200;
+      }
+      .smartest{
+        font-weight: 200;
+        font-size: 12px;
+    }
+    .imageA1{
+        width: 80px;
+        height: 80px;
+    }
+    .imageA1>img{
+        width: 100%;
+        height: 100%;
+    }
+    .message{
+        font-size: 12px;
+        font-weight: 200;
+    }
+    .innerfooter{
+        width: 90%;
+        padding-top: 0px;
+    }
+    .footerimg{
+        font-weight: 200;
+        font-size: 16px;
+    }
+    .footerimgtext{
+        font-weight: 100;
+        font-size: 8px;
+    }
+}
