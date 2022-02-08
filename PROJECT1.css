@@ -94,8 +94,6 @@ width: 90%;
 }
 .musictext h1 span{
     color: red;
-   margin-buttom: 30px;
-  
 }
 .musictext p{
    font-family:  var(--font-family);
@@ -156,12 +154,13 @@ width: 90%;
     font-weight: 300;
     font-size: 18px;
 }
-.picturebutton{
+.picturebutton {
     border-radius: none;
     background-color: #222222;
     border: none;
     padding:10px 20px;
     color: white;
+    margin-top: 20px;
 }
 .picturebutton:hover{
     background-color: transparent;
@@ -205,17 +204,29 @@ width: 90%;
 .mictext{
     width: 50%;
     font-family:  var(--font-family);
-    margin-top: 30px;
+    margin-top: 20px;
 }
 .mictext h3{
   font-size: 30px; 
     font-weight: 400;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 .mictext p{
     font-size: 18px; 
       font-weight: 300;
-      margin-bottom: 20px;
+      margin-bottom: 10px;
+}
+.micbutton{
+    border-radius: none;
+    background-color: #222222;
+    border: none;
+    padding:10px 20px;
+    color: white;
+}
+.micbutton:hover{
+    background-color: transparent;
+    color: black;
+    border: 1px solid grey;
 }
 .smartest{
     width: 100%;
