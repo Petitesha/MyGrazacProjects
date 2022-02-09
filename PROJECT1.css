@@ -568,9 +568,16 @@ font-family:  var(--font-family);
         font-size: 12px;
         font-weight: 200;
     }
+    .footer{
+        width: 100%;
+    }
     .innerfooter{
         width: 90%;
-        padding-top: 0px;
+       display: flex;
+       flex-direction: column;
+       justify-content: space-between;
+       align-items: center;
+       margin: auto;
     }
     .footerimg{
         font-weight: 200;
@@ -579,5 +586,11 @@ font-family:  var(--font-family);
     .footerimgtext{
         font-weight: 100;
         font-size: 8px;
+    }
+    .footer2{
+        width: 90%;
+        display: flex;
+        padding-top: 20px;
+        margin: auto;
     }
 }
