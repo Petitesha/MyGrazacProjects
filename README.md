@@ -19,7 +19,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./Design/MyProjectscreenshot.jpeg)
+![](./Design/My_Project_screenshot.jpeg)
 
 ### Links
 
